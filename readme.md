@@ -12,9 +12,9 @@ The scoreboard uses the wonderful [PyGame](http://www.pygame.org/) library, buil
 
 Run the scoreboard itself with:
 
-    ``` bash
-    `$ ./scoreboard.py
-    ```
+```bash
+$ ./scoreboard.py
+```
 or by double-clicking the `scoreboard.py` script.
 
 While its running, you can modify the `scores.txt` file, then hit the **Refresh scores** button (see table below) to update the scoreboard.
@@ -32,15 +32,15 @@ Edit scores.txt with the scores for each team.
 
 #### Example scores.txt file
 
-    ```
-    1 mario 0 18 11 -5 3 4
-    2 toad 0 22 21 10 -10 -5 3 
-    3 peach 0 17 20 -5 2 2 2 3 3 1 
-    4 luigi 0 16 23 10 -5 5 3 4
-    5 yoshi 0 15 21 4 4 4
-    6 donkey_kong 0 15 1
-    7 bowser 0 20 20 -5
-    ```
+```
+1 mario 0 18 11 -5 3 4
+2 toad 0 22 21 10 -10 -5 3 
+3 peach 0 17 20 -5 2 2 2 3 3 1 
+4 luigi 0 16 23 10 -5 5 3 4
+5 yoshi 0 15 21 4 4 4
+6 donkey_kong 0 15 1
+7 bowser 0 20 20 -5
+```
 
 ## Customising it
 
@@ -49,21 +49,21 @@ You can modify the images in the `images/` directory as much as you want to cust
 You can also add your own custom songs to the `sfx/` directory, and the scoreboard will automatically load (and play) them when told to.
     
 ## Keybindings
-
-+-------------------------------+----------------+
-| Refresh scores                | F12            |
-| Hit/reset item block          | <team number>  |
-| Shake/unshake team number     | F<team number> |
-| Shake all team numbers        | F11            |
-| Stop shaking all team numbers | F10            |
-| Play music                    | P              |
-| Stop music                    | S              |
-| Play starting round music     | Enter or A     |
-| Play ending round music       | F              |
-| Go to high score screen       | L              |
-| Increase scores displayed     | Up arrow       |
-| Decrease scores displayed     | Down arrow     |
-+-------------------------------+----------------+
+    
+    +-------------------------------+----------------+
+    | Refresh scores                | F12            |
+    | Hit/reset item block          | <team number>  |
+    | Shake/unshake team number     | F<team number> |
+    | Shake all team numbers        | F11            |
+    | Stop shaking all team numbers | F10            |
+    | Play music                    | P              |
+    | Stop music                    | S              |
+    | Play starting round music     | Enter or A     |
+    | Play ending round music       | F              |
+    | Go to high score screen       | L              |
+    | Increase scores displayed     | Up arrow       |
+    | Decrease scores displayed     | Down arrow     |
+    +-------------------------------+----------------+
 
 ## Future features
 
@@ -72,4 +72,4 @@ You can also add your own custom songs to the `sfx/` directory, and the scoreboa
 
 ## Credits
 
-(C) 2011-12 Sasha Bermeister
+&copy; 2011-12 Sasha Bermeister

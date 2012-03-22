@@ -7,6 +7,20 @@ A trivia scoreboard, themed around mario kart.
 The scoreboard uses the wonderful [PyGame](http://www.pygame.org/) library, built on [SDL](http://www.libsdl.org/).
 
 ## How to use it
+
+### Starting the scoreboard
+
+Run the scoreboard itself with:
+
+    ``` bash
+    `$ ./scoreboard.py
+    ```
+or by double-clicking the `scoreboard.py` script.
+
+While its running, you can modify the `scores.txt` file, then hit the **Refresh scores** button (see table below) to update the scoreboard.
+
+### Editing the scores
+
 Edit scores.txt with the scores for each team.
 
 - You can have up to 8 teams
@@ -16,7 +30,7 @@ Edit scores.txt with the scores for each team.
 - You can enter positive or negative space-separated numbers
 - You can have as many numbers as you'd like
 
-## Example scores.txt file
+#### Example scores.txt file
 
     ```
     1 mario 0 18 11 -5 3 4
@@ -28,6 +42,12 @@ Edit scores.txt with the scores for each team.
     7 bowser 0 20 20 -5
     ```
 
+## Customising it
+
+You can modify the images in the `images/` directory as much as you want to customise the look of the scoreboard!
+
+You can also add your own custom songs to the `sfx/` directory, and the scoreboard will automatically load (and play) them when told to.
+    
 ## Keybindings
 
 +-------------------------------+----------------+
@@ -44,6 +64,11 @@ Edit scores.txt with the scores for each team.
 | Increase scores displayed     | Up arrow       |
 | Decrease scores displayed     | Down arrow     |
 +-------------------------------+----------------+
+
+## Future features
+
+- Ability to customise the keybindings in a configuration file
+- Ability to re-layout the images (e.g. if the image sizes change) in a configuration file
 
 ## Credits
 
